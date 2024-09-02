@@ -1,0 +1,32 @@
+.container {
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+  color: #00f;
+}
+
+.text {
+  color: red;
+  font-size: larger;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+.App-logo {
+  background-color: #f2f2f2;
+  pointer-events: none;
+  object-fit: contain;
+  width: 530px;
+  height: 300px;
+  box-shadow: 5px 5px 5px #ccc;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .App-logo {
+    width: 100%;
+    height: auto;
+  }
+}
